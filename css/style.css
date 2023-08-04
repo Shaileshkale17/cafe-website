@@ -35,7 +35,7 @@ section {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  animation: fadein 0.4s linear;
+  animation: fadein 0.2s linear;
 }
 
 @keyframes wipe-in-left {
@@ -150,7 +150,56 @@ section {
   margin: 20px 0;
   cursor: pointer;
 }
-/* id-2 */
-#id-2{
-  background-color: blue;
+/* History-container*/
+#History{
+  min-width: 100vh;
+  min-height: 65vh;
 }
+.History-container{
+  height: 65vh;
+  background-image: url(../iamge/pexels-jason-toevs-2068296.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+ 
+}
+
+  .History-container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 36%;
+    padding: 7% 0;
+  }
+
+  /* footer */
+  footer{
+    min-width: 100vh;
+    min-height: 65vh;
+    background-color: var(--color-61677A);
+    color: white;
+    
+  }
+ .footer-manu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 10% 11% ;
+    font-size: 20px;
+  }
+ .footer-manu ul {
+    list-style: none;
+  }
+  
+ .footer-manu ul li {
+    padding: 10px 0;
+  }
+ .footer-manu ul li h2{
+    color: var(--color-FFF6E0);
+  }
+ .footer-manu ul li a{
+    text-decoration: none;
+    color: var(--color-FFF6E0);
+  }
+  
