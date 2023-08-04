@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-FFF6E0);
+}
+
+section {
+  min-width: 100vh;
+  min-height: 100vh;
+}
+
+/* sider section */
+.container {
+  position: relative;
+  height: 110vh;
+}
+
+.container .slide-container .slide {
+  min-height: 90vh;
+  position: relative;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.container .slide-container .slide img {
+  position: relative;
+  display: flex;
+  left: 0;
+  top: -979px;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  animation: fadein 0.4s linear;
+}
+
+@keyframes wipe-in-left {
+  from {
+    clip-path: inset(0 0 0 100%);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+[transition-style="in:wipe:left"] {
+  animation: 2.5s cubic-bezier(.25, 1, .30, 1) wipe-in-left both;
+}
+@keyframes fadein {
+  from {
+    clip-path: inset(0 0 0 100%);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.container .slide-container .slide .content {
+  min-height: 85vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+  animation: animate 0.4s linear;
+}
+
+@keyframes animate {
+  from {
+    clip-path: inset(0 0 0 100%);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.container .slide-container .slide .content p {
+  font-size: 60px;
+  color: var(--color-FFF6E0);
+}
+
+.container .slide-container {
+  display: none;
+}
+
+.container .slide-container.active {
+  display: block;
+}
+
+/* 2nd section */
+#home{
+  min-width: 100vh;
+  min-height: 80vh;
+  overflow-x: hidden;
+}
+.home-container {
+  background-color: var(--color-61677A);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2% 0;
+}
+
+/* image of logo */
+.home-container .navber_image img {
+  width: 41%;
+  margin-left: 10%;
+}
+
+/* navber of 1st side */
+.home-container .navber nav ul , .navber-2 nav ul {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
+}
+
+.home-container .navber nav ul li , .navber-2 nav ul li   {
+  padding: 0 37px;
+}
+.home-container .navber nav ul li a , .navber-2 nav ul li a  {
+  text-decoration: none;
+  color: var(--color-FFF6E0);
+}
+
+/* Box_iamge container */
+ .box-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-container .inbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.box-container .inbox button a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+.box-container .inbox button {
+  padding: 20px ;
+  background-color: var(--color-FFF6E0);
+  margin: 20px 0;
+  cursor: pointer;
+}
+/* id-2 */
+#id-2{
+  background-color: blue;
+}
