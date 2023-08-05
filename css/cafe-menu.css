@@ -1,0 +1,27 @@
+#hero {
+  background-image: url(../iamge/pexels-jason-toevs-2068296.jpg);
+  min-height: 84vh;
+  object-fit: cover;
+}
+#hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 52%;
+}
+#home {
+    min-width: 85vh;
+    min-height: 11vh;
+    overflow-x: hidden;
+}
+
+#cafe-menu{
+    min-width: 100vh;
+    min-height: 65vh;
+    /* background-color: var(--color-61677A); */
+}
+#cafe-menu img{
+    width: -webkit-fill-available;
+    padding: 4px 20%;
+}
+

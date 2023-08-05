@@ -16,17 +16,17 @@ section {
 /* sider section */
 .container {
   position: relative;
-  height: 110vh;
+  /* height: 110vh; */
 }
 
-.container .slide-container .slide {
+.slide-container .slide {
   min-height: 90vh;
-  position: relative;
+  position: absolute;
   overflow: hidden;
   z-index: -1;
 }
 
-.container .slide-container .slide img {
+ .slide-container .slide img {
   position: relative;
   display: flex;
   left: 0;
@@ -59,7 +59,7 @@ section {
   }
 }
 
-.container .slide-container .slide .content {
+ .slide-container .slide .content {
   min-height: 85vh;
   width: 100%;
   display: flex;
@@ -79,17 +79,18 @@ section {
   }
 }
 
-.container .slide-container .slide .content p {
+ .slide-container .slide .content p {
   font-size: 60px;
   color: var(--color-FFF6E0);
 }
 
-.container .slide-container {
+ .slide-container {
   display: none;
 }
 
-.container .slide-container.active {
+.active {
   display: block;
+  height: auto;
 }
 
 /* 2nd section */
