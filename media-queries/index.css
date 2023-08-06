@@ -1,0 +1,436 @@
+/* !X-Small devices (portrait phones, less than 576px) */
+@media only screen and (max-width: 575.98px) {
+
+
+  #hero {
+    min-width: auto;
+    min-height: 100%;
+  }
+
+  /* .container {
+  position: unset;
+  height: a;
+} */
+  .slide-container .slide {
+    min-height: 100%;
+    position: unset;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .slide-container .slide .content {
+    min-height: 34vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: absolute;
+    text-align: center;
+    animation: animate 0.4s linear;
+  }
+
+  .slide-container .slide img {
+    position: relative;
+    display: flex;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    animation: fadein 0.2s linear;
+  }
+
+  .slide-container .slide .content p {
+    font-size: 100%;
+    color: var(--color-FFF6E0);
+  }
+
+  #home {
+    min-width: 100%;
+    min-height: 80vh;
+    overflow-x: hidden;
+  }
+
+  .home-container {
+    background-color: var(--color-61677A);
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 0;
+    width: 575px;
+  }
+
+  .home-container .navber nav ul {
+    display: grid;
+    list-style: none;
+    font-size: 20px;
+  }
+
+  .home-container .navber nav ul {
+    display: grid;
+    gap: 31px;
+    list-style: none;
+    font-size: 20px;
+    margin: 24px 0;
+  }
+
+  .box-container {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .box-container .inbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .box-container .inbox .inbox-img img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  #History {
+    min-width: 100%;
+    min-height: auto;
+  }
+
+  .History-container {
+    height: 100%;
+    width: 100%;
+    background-image: url(../iamge/pexels-jason-toevs-2068296.jpg);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: cover;
+  }
+
+  .History-container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 18% 0;
+  }
+
+  footer {
+    min-width: 100%;
+    min-height: auto;
+    background-color: var(--color-61677A);
+    color: white;
+  }
+
+  .footer-manu {
+    display: grid;
+    grid-template-columns: repeat(2, 5fr);
+    align-items: unset;
+    justify-content: unset;
+    flex-direction: row;
+    padding: 3% 5%;
+    font-size: 12px;
+    /* flex-wrap: wrap; */
+  }
+
+  .footer-manu .Business {
+    padding-top: 20px;
+  }
+
+}
+
+/* !Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) and (min-width: 575.98px) {
+  
+
+  #hero {
+    min-width: auto;
+    min-height: 100%;
+  }
+
+  /* .container {
+  position: unset;
+  height: a;
+} */
+  .slide-container .slide {
+    min-height: 100%;
+    position: unset;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .slide-container .slide .content {
+    min-height: 34vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: absolute;
+    text-align: center;
+    animation: animate 0.4s linear;
+  }
+
+  .slide-container .slide img {
+    position: relative;
+    display: flex;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    animation: fadein 0.2s linear;
+  }
+
+  .slide-container .slide .content p {
+    font-size: 100%;
+    color: var(--color-FFF6E0);
+  }
+
+  #home {
+    min-width: 100%;
+    min-height: 80vh;
+    overflow-x: hidden;
+  }
+
+  .home-container {
+    background-color: var(--color-61677A);
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 0;
+    width: 575px;
+  }
+
+  .home-container .navber nav ul {
+    display: grid;
+    list-style: none;
+    font-size: 20px;
+  }
+
+  .home-container .navber nav ul {
+    display: grid;
+    gap: 31px;
+    list-style: none;
+    font-size: 20px;
+    margin: 24px 0;
+  }
+
+  .box-container {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .box-container .inbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .box-container .inbox .inbox-img img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  #History {
+    min-width: 100%;
+    min-height: auto;
+  }
+
+  .History-container {
+    height: 100%;
+    width: 100%;
+    background-image: url(../iamge/pexels-jason-toevs-2068296.jpg);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: cover;
+  }
+
+  .History-container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 18% 0;
+  }
+
+  footer {
+    min-width: 100%;
+    min-height: auto;
+    background-color: var(--color-61677A);
+    color: white;
+  }
+
+  .footer-manu {
+    display: grid;
+    grid-template-columns: repeat(2, 5fr);
+    align-items: unset;
+    justify-content: unset;
+    flex-direction: row;
+    padding: 3% 5%;
+    font-size: 12px;
+    /* flex-wrap: wrap; */
+  }
+
+  .footer-manu .Business {
+    padding-top: 20px;
+  }
+}
+
+/* !Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) and (min-width: 991.98px) {
+  
+
+  #hero {
+    min-width: auto;
+    min-height: 100%;
+  }
+
+  /* .container {
+  position: unset;
+  height: a;
+} */
+  .slide-container .slide {
+    min-height: 100%;
+    position: unset;
+    overflow: hidden;
+    z-index: -1;
+  }
+
+  .slide-container .slide .content {
+    min-height: 34vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: absolute;
+    text-align: center;
+    animation: animate 0.4s linear;
+  }
+
+  .slide-container .slide img {
+    position: relative;
+    display: flex;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    animation: fadein 0.2s linear;
+  }
+
+  .slide-container .slide .content p {
+    font-size: 100%;
+    color: var(--color-FFF6E0);
+  }
+
+  #home {
+    min-width: 100%;
+    min-height: 80vh;
+    overflow-x: hidden;
+  }
+
+  .home-container {
+    background-color: var(--color-61677A);
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 0;
+    width: 575px;
+  }
+
+  .home-container .navber nav ul {
+    display: grid;
+    list-style: none;
+    font-size: 20px;
+  }
+
+  .home-container .navber nav ul {
+    display: grid;
+    gap: 31px;
+    list-style: none;
+    font-size: 20px;
+    margin: 24px 0;
+  }
+
+  .box-container {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .box-container .inbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .box-container .inbox .inbox-img img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  #History {
+    min-width: 100%;
+    min-height: auto;
+  }
+
+  .History-container {
+    height: 100%;
+    width: 100%;
+    background-image: url(../iamge/pexels-jason-toevs-2068296.jpg);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: cover;
+  }
+
+  .History-container img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 18% 0;
+  }
+
+  footer {
+    min-width: 100%;
+    min-height: auto;
+    background-color: var(--color-61677A);
+    color: white;
+  }
+
+  .footer-manu {
+    display: grid;
+    grid-template-columns: repeat(2, 5fr);
+    align-items: unset;
+    justify-content: unset;
+    flex-direction: row;
+    padding: 3% 5%;
+    font-size: 12px;
+    /* flex-wrap: wrap; */
+  }
+
+  .footer-manu .Business {
+    padding-top: 20px;
+  }
+}
+
+/*! X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) and (min-width: 1199.98px) {
+  
+}
+
+/* ! XX-Large devices (larger desktops) */

@@ -204,3 +204,6 @@ section {
     color: var(--color-FFF6E0);
   }
   
+  footer p{
+    text-align: center;
+  }
