@@ -203,7 +203,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 3% 0;
-    width: 575px;
+    width: 100%;
   }
 
   .home-container .navber nav ul {
@@ -221,7 +221,7 @@
   }
 
   .box-container {
-    display: grid;
+    display: flex;
     justify-content: space-between;
     align-items: center;
   }
@@ -270,8 +270,8 @@
   }
 
   .footer-manu {
-    display: grid;
-    grid-template-columns: repeat(2, 5fr);
+    display: flex;
+    /* grid-template-columns: repeat(2, 5fr); */
     align-items: unset;
     justify-content: unset;
     flex-direction: row;
@@ -280,8 +280,21 @@
     /* flex-wrap: wrap; */
   }
 
+  .footer-manu .Quick-link {
+    margin-right: auto;
+  }
+  .footer-manu .Cafe-Menu {
+    margin-right: auto;
+  }
+  .footer-manu .Shop {
+    margin-right: auto;
+  }
   .footer-manu .Business {
     padding-top: 20px;
+    margin-right: auto;
+  }
+  .footer-manu .About-Us {
+    margin-right: auto;
   }
 }
 
